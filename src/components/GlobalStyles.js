@@ -9,7 +9,7 @@ Variables
 :root {
   --primary-light: #b0edfd;
   /* Primary Color */
-  --primary: #61DBFB;
+  --primary: #221c70;
   --primary-dark: #316e7e;
   --border: 1px solid #61DBFB;
   --transition: all 0.3s linear;

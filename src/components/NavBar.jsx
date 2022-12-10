@@ -6,6 +6,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { FixedNavSpacer, ToggleSwitch } from "./globalStyledComponents";
 // Images
 import Logo from "../images/logo.svg";
+import leologo from "../assets/logo/leologo.png"
 
 export default function NavBar() {
   const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
@@ -26,10 +27,10 @@ export default function NavBar() {
           <Navbar.Brand>
             <img
               alt="React Logo"
-              src={Logo}
+              src={leologo}
               width="35"
               height="35"
-              className="d-inline-block align-top bg-dark rounded-circle nav-logo"
+              className="d-inline-block align-top bg-primary rounded-circle nav-logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle

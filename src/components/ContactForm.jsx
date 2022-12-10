@@ -128,7 +128,7 @@ export default function ContactForm() {
           </Alert>
           <Alert show={!formspreeUrl} variant="danger">
             <Alert.Heading>
-              You must provide a valid formspree url in data.js
+             
             </Alert.Heading>
           </Alert>
         </Form.Group>

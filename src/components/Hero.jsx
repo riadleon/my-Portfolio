@@ -98,7 +98,9 @@ export default function Hero() {
                 <SocialLinks />
               </div>
               <div>
-                <button className="btn btn-primary">Resume</button>
+                <a href="https://drive.google.com/file/d/19lBxFsPoTGUTGdrzM9Bl2gYFPbgi2iqd/view?usp=sharing">
+                  <button className="btn btn-primary">Resume</button>
+                </a>
               </div>
             </div>
           </Col>
